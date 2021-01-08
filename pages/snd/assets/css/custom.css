@@ -1,0 +1,31 @@
+.herobanner {
+  text-align:center;
+}
+
+.herobanner img {
+  margin-top: 10px;
+}
+
+	@media screen and (max-width: 1920px) {
+
+    .herobanner img{
+      width: 300px;
+      height: auto;
+    }
+
+  }
+  @media screen and (max-width: 1280px) {
+
+    .herobanner img{
+      width: 200px;
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 980px) {
+
+    .herobanner img{
+      width: 100px;
+      height: auto;
+    }
+
+  }
