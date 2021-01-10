@@ -2098,7 +2098,6 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			background: url("images/overlay.png");
-			border-radius: 0.35em;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2141,13 +2140,25 @@ input, select, textarea {
 
 
 			.image.thumb:hover:after {
-				opacity: 1.0;
+				opacity: 2.0;
+
 			}
 
 			.image.thumb:hover:before {
 				background: url("images/overlay.png"), url("images/overlay.png");
 				opacity: 0.2;
 			}
+
+      /* this works
+      .image.thumb:hover:before {
+        content: 'Neuffa';
+        opacity: 1.0;
+        text-align: center;
+        padding: 161.5px 0px;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 100px;
+    }*/
 
 		.image img {
 			border-radius: 0.35em;
@@ -3320,6 +3331,12 @@ h1 { font-size: 3.5em; }
 h2 {
   color: #888;
   font-size: 2em;
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
 }
 
 var css = document.createElement("style");

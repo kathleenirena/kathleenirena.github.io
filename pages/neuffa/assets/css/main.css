@@ -44,7 +44,9 @@ body {
 }
 
 ol, ul {
-	list-style: none;
+	list-style-type: none;
+  margin:0;
+  padding:0;
 }
 
 blockquote, q {
@@ -2706,7 +2708,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style-type: none;
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
 	}
@@ -8745,3 +8747,9 @@ input, select, textarea {
 								}
 
 				}
+
+.logo-img {
+    float: left;
+    position: relative;
+    margin: 36px 15px 36px 72px;
+}
