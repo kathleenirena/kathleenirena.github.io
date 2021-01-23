@@ -126,7 +126,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9DB1FF !important;
+			color: #fff;
 			text-decoration: none;
 		}
 
@@ -284,6 +284,15 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+      .topnav nav a {
+        font-size: 8px;
+      }
+
+     #intro .inner h1{
+      font-size: 20px;
+     }
+
+
 			.container {
 				width: 100% !important;
 				max-width: 100% !important;
@@ -311,7 +320,7 @@ input, select, textarea {
   float: right;
   color: #fff;
   text-align: center;
-  padding: 14px 40px;
+  padding: 10px 20px;
   text-decoration: none;
   font-size: 12px;
 	border-bottom: 3px solid transparent;
@@ -320,14 +329,12 @@ input, select, textarea {
 /* Change the color of links on hover */
 .topnav a:hover {
 	border-bottom: 3px solid #9DB1FF;
-  background-color:;
-  color: #000;
+  color: #fff;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-	border-bottom: 3px solid #9DB1FF;
-  background-color:
+.topnav a:active {
+	border-bottom: 3px solid #fff;
   color: #fff;
 }
 
@@ -1065,6 +1072,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+
 
 			.row {
 				display: flex;
@@ -3338,13 +3346,14 @@ h2 {
 .logo-img{
     float: left;
     position: relative;
-    margin: 10px 15px 15px 10px;
+    margin: 20px 20px 0px 0px;
 }
 
 var css = document.createElement("style");
 css.type = "text/css";
 css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
 document.body.appendChild(css);
+}
 
 /* Icon */
 

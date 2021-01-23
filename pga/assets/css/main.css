@@ -7261,7 +7261,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		.wrapper.style1 > .inner {
-			padding: 4.5rem 3rem 2.5rem 3rem ;
+			padding: 60px 60px; ;
 		}
 
 	}
@@ -8192,7 +8192,7 @@ input, select, textarea {
 /* Index */
 
 	.index > * {
-		padding: 80px 0 1rem 0 ;
+		padding: 40px 0 40px 0;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -8224,7 +8224,7 @@ input, select, textarea {
 		}
 
 	.index > :first-child {
-		border-top: 0;
+		border-top: 1;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -8751,7 +8751,7 @@ input, select, textarea {
 .logo-img {
     float: left;
     position: relative;
-    margin: 36px 15px 36px 72px;
+    margin: 20px 20px 0px 0px;;
 }
 
   /* Gallery baru biar bisa scroll */

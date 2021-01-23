@@ -14,38 +14,61 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="custom.css" />
+
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" style="overflow-x: hidden;">
 
 		<!-- Header -->
 <header>
 	<a href="index.html">
-	<img class="logo-img" src="Assets/Logo/K_Logo_50px.png" alt="Kathleen Irena" itemprop="logo" style="max-height: 70px">
+	<img class="logo-img" src="Assets/Logo/K_Logo_50px.png" alt="Kathleen Irena" itemprop="logo" style="max-height: 50px">
 	</a>
-	<div class="topnav" style="padding:36px 0px;">
+	<div class="topnav">
 
-					<nav>
-								<a style="padding-top: 0px;" href="index.html#four">CONTACT</a>
-								<a style="padding-top: 0px;" href="index.html#three">WORKS</a>
-								<a style="padding-top: 0px;" href="index.html#two">CASE STUDIES</a>
-								<a style="padding-top: 0px;" href="index.html#one">ABOUT</a>
-					 </nav>
+				<div class="wrapper-menu">
+				  <div class="line-menu half start"></div>
+				  <div class="line-menu"></div>
+				  <div class="line-menu half end"></div>
+				</div>
 
-	</div>
+			  <nav class="navbar">
+			    <ul>
+			      <li><a class="menuLink" href="index.html#one">ABOUT</a></li>
+			      <li><a class="menuLink" href="index.html#two">CASE STUDIES</a></li>
+			      <li><a class="menuLink" href="index.html#three">WORKS</a></li>
+			      <li><a class="menuLink" href="index.html#four">CONTACT</a></li>
+			    </ul>
+			  </nav>
+
+<!-- reg navbar -->
+
+				<nav class="nav-lg">
+						<a style="padding-top: 0px;" href="index.html#four">CONTACT</a>
+						<a style="padding-top: 0px;" href="index.html#three">WORKS</a>
+						<a style="padding-top: 0px;" href="index.html#two">CASE STUDIES</a>
+						<a style="padding-top: 0px;" href="index.html#one">ABOUT</a>
+			 </nav>
+
+</div>
 </header>
 
+
 				<section id="intro" class=" fade-up" style="padding-top: 80px;">
+
+
+
 					<div class="inner">
 				<h1>
-					<Strong> Hello! I'm Kathleen!<br>
-						I'm a Digital Designer.<br>
-						I design
+					 	Hi! I'm Kathleen!</br>
+						I'm a Digital Designer.</h1>
+				<h2>		I design
 					<span
 						 class="txt-rotate col-4-xsmall"
 						 data-period="2000"
-						 data-rotate='[ "Brands.", "User Interface.", "User Experiences.", "Content.", "Illustrations." ]'></span>
+						 data-rotate='[ "Brands.", "User Interface.", "User Experience.", "Content.", "Illustrations." ]'></span>
 						 </strong>
-				</h1>
+				</h2>
 				</div>
 
 <br>
@@ -53,14 +76,14 @@
 				</section>
 				</header>
 
-							<!-- Main -->
+					<!-- Main -->
 					<div class="container" style="margin-left:0px;">
-							<section id="one" style="padding-top: 100px;">
+							<section id="one" class="active" style="padding-top: 100px;">
 					<div class="row">
 
 					<!-- TITLE -->
-						<article class="col-4-xsmall work-item">
-									<h2 style="margin-top: 0; padding-right:32px;">ABOUT</h2>
+						<article class="col-4 col-4-xsmall work-item">
+									<h2 style="margin-top: 0; padding-right:10px;">ABOUT</h2>
 						</article>
 					<!-- Paragraph -->
 						<article class="col-5 col-12-medium work-item">
@@ -81,7 +104,7 @@
 					</div>
 					<div class="row">
 					<!-- TITLE -->
-						<article class="col-4-xsmall work-item">
+						<article class="col-4 col-4-xsmall work-item">
 									<h2 style="margin-top: 0; ">CLIENTS</h2>
 						</article>
 
@@ -107,7 +130,7 @@
 									</a>
 
 										<div class="row">
-										<div class="col-8">
+										<div class="col-8 col-12-xsmall" style="padding-top:20px;">
 									<h3>Neuffa | Skin Sanctuary</h3>
 									<p>Desktop and Mobile Development project for Neuffa,
 										 a skincare e-commerce platform.</p>
@@ -128,8 +151,8 @@
 									<a href="deemoney.html" class="image fit thumb">
 										<img src="images/project-cover/deemoneycover.jpg" alt="Deemoney" /></a>
 
-									<div class="row">
-									<div class="col-8">
+									<div class="row" style="padding-top:20px;">
+									<div class="col-8 col-12-xsmall">
 
 									<h3>Deemoney | Thailand Banking App</h3>
 									<p>Desktop & Mobile PWA Development for
@@ -151,8 +174,8 @@
 								<article class="col-6 col-12-xsmall work-item">
 									<a href="shopanddrive.html" class="image fit thumb"><img src="images/project-cover/SND-cover.jpg" alt="Shop n Drive" /></a>
 
-										<div class="row">
-										<div class="col-8">
+										<div class="row" style="padding-top:20px;">
+										<div class="col-8 col-12-xsmall">
 
 										<h3>Shop & Drive | Responsive Website Design</h3>
 										<p>Resposive Web design for Shop & Drive.</p>
@@ -174,8 +197,8 @@
 								<article class="col-6 col-12-xsmall work-item">
 									<a href="grc.html" class="image fit thumb"><img src="images/project-cover/GRC.gif" alt="" /></a>
 
-									<div class="row">
-									<div class="col-8">
+									<div class="row" style="padding-top:20px;">
+									<div class="col-8 col-12-xsmall">
 
 									<h3>GRC</h3>
 									<p>Responsive web design for rain gear distributor company, GRC.</p>
@@ -198,29 +221,31 @@
 							<p style="font-size: 18px; letter-spacing: 0;">
 								See my other projects in Branding, Illustration, Content Design, and more!</p>
 								<div class="row">
-									<div class="col-4 col-12-small">
+									<div class="col-4 col-12-small" style="padding-top:20px;">
 											<a href="pga/images/gallery/fulls/acp.jpg" class="image fit thumb">
 											<img src="pga/images/gallery/fulls/acp.jpg" alt="ACP" /></a>
 									</div>
-									<div class="col-4 col-12-small">
+									<div class="col-4 col-12-small" style="padding-top:20px;">
 											<a href="pga/images/gallery/fulls/honestherb.jpg" class="image fit thumb">
 											<img src="pga/images/gallery/fulls/honestherb.jpg" alt="Honest Herb" /></a>
 									</div>
-									<div class="col-4 col-12-small">
+									<div class="col-4 col-12-small" style="padding-top:20px;">
 											<a href="pga/images/gallery/fulls/makaio.jpg" class="image fit thumb">
 											<img src="pga/images/gallery/fulls/makaio.jpg" alt="Etmakaio" /></a>
-									</div>
-									<div class="col-4 col-12-small">
+									</div></div>
+									<div class="row">
+									<div class="col-4 col-12-small" style="padding-top:20px;">
 											<a href="pga/images/gallery/fulls/tama.jpg" class="image fit thumb">
 											<img src="pga/images/gallery/fulls/tama.jpg" alt="Tama" /></a>
 									</div>
-									<div class="col-4 col-12-small">
+									<div class="col-4 col-12-small" style="padding-top:20px;">
 											<a href="pga/images/gallery/fulls/breton.jpg" class="image fit thumb">
 											<img src="pga/images/gallery/fulls/breton.jpg" alt="Breton" /></a>
 									</div>
-									<div class="col-4 col-12-small">
+									<div class="col-4 col-12-small" style="padding-top:20px;">
 											<a href="pga/images/gallery/fulls/zpro.jpg" class="image fit thumb">
 											<img src="pga/images/gallery/fulls/zpro.jpg" alt="Zpro" /></a>
+									</div>
 									</div>
 								</section>
 
@@ -251,14 +276,14 @@
 									<ul class="labeled-icons">
 										<li style="font-family:'Poppins'; font-weight:300; font-size:18px;">
 											For any inquiries,<br />
-											kindly fill out this short form<br />
-											and I will get back to you<br>
+											kindly fill out this short form
+											and I will get back to you
 											in 24 hours!
 
 										</li>
 
-										<li style="font-family:'Poppins'; font-weight:300; font-size:18px; padding-left:30px;">
-											<a href="#">irenakathleen@gmail.com</a>
+										<li>
+											<a href="mailto: irenakathleen@gmail.com">irenakathleen@gmail.com</a>
 										</li>
 
 									</ul>
@@ -271,24 +296,38 @@
 
 				<!-- Footer 2 -->
 					<footer class="wrapper style1 align-center">
+
 						<div class="inner">
 							<ul class="icons">
 								<li><a href="https://www.instagram.com/kathleenirn/?hl=en" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
 								<li><a href="https://www.linkedin.com/in/kathleen-irena-9a9683130/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 								<li><a href="mailto: irenakathleen@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
+
+							<!-- jump to top -->
+
+							<div class="back-to-top">
+							<img src="Assets/arrowup.svg">
+							<p> Back to top</p>
+							</div>
+
 						</div>
-					</footer>
+						</footer>
+
+
+
+
 
 
 			<!-- Scripts -->
-				<script src="main.js"></script>
+
 				<script src="js/jquery.min.js"></script>
 				<!-- <script src="js/jquery.poptrox.min.js"></script> -->
 				<script src="js/browser.min.js"></script>
 				<script src="js/breakpoints.min.js"></script>
 				<script src="js/util.js"></script>
 				<script src="js/main.js"></script>
+				<script src="custom.js"></script>
 
 		</body>
 		</html>

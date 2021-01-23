@@ -1,0 +1,275 @@
+
+/* Hamburger Icon */
+      .wrapper-menu {
+        width: 30px;
+        height: 30px;
+        float: right;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: transform 330ms ease-out;
+        position: relative;
+        z-index: 100;
+
+      }
+
+      .wrapper-menu.open {
+        transform: rotate(-45deg);
+      }
+
+      .wrapper-menu.close {
+        transform: rotate(45deg);
+      }
+
+      .line-menu {
+        background-color: #fff;
+        border-radius: 5px;
+        width: 100%;
+        height: 2px;
+      }
+
+      .line-menu.half {
+        width: 50%;
+      }
+
+      .line-menu.start {
+        transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+        transform-origin: right;
+      }
+
+      .open .line-menu.start {
+        transform: rotate(-90deg) translateX(1px);
+      }
+
+      .line-menu.end {
+        align-self: flex-end;
+        transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+        transform-origin: left;
+      }
+
+      .open .line-menu.end {
+        transform: rotate(-90deg) translateX(-1px);
+      }
+
+      .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        color: white;
+        /* hide the menu above the screen by default */
+        transform: translateY(-100%);
+        /* transition adds a little animation when sliding in and out the menu */
+        transition: transform 0.2s ease;
+      }
+
+
+      .showNav {
+        /* show the menu */
+        transform: translateY(0);
+      }
+
+       /* basic nav styling below */
+
+      .navbar ul {
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .navbar ul li a {
+        color: white;
+        padding-bottom: 10px;
+        border-bottom: 2px solid black;
+        text-decoration: none;
+        font-family: 'Tenor Sans', sans-serif;
+        font-size: 16px;
+      }
+
+      .navbar ul li a:hover, .navbar ul li a:focus {
+        border-bottom: 2px solid white;
+      }
+
+
+
+/* THE REST */
+
+
+
+body {
+overflow-x: hidden;
+}
+
+#intro {
+  background-image: url("");
+
+}
+
+/* JUMP TO TOP */
+
+.back-to-top img{
+  width:80px;
+  position:relative;
+  margin-bottom: 0px;
+}
+
+/* Regular Nav */
+.topnav {
+  padding: 36px 0px;
+}
+
+.topnav a:active {
+	border-bottom: 3px solid #fff;
+  color: #fff;
+}
+
+.topnav a:hover {
+	border-bottom: 3px solid #9DB1FF;
+  color: #9DB1FF;
+}
+
+.nav-lg {
+  float: right;
+}
+
+@media screen and (max-width: 3072px) {
+
+  html, body {
+     padding: 40px;
+   }
+   .topnav {
+     padding: 28px 20px;
+     font-size: 22px;
+   }
+
+   /* Image */
+   .image.fit {
+     display: block;
+     margin: 0px;
+     width: 100%;
+   }
+
+   .logo-img {
+     margin: 10px 20px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+
+  html, body {
+     padding: 30px;
+   }
+
+   .topnav a {
+     padding: 10px 20px;
+     font-size: 12px;
+   }
+
+  #intro .inner h1 {
+  font-size: 50px;
+  color: #fff;
+
+  }
+
+  #intro .inner h2 {
+  font-size: 36px;
+  color: #fff;
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+
+  html, body {
+     padding: 20px;
+   }
+
+  .nav-lg{
+     display: none;
+   }
+
+  .wrapper-menu {
+     display: flex;
+   }
+
+   .topnav{
+     padding: 25px 0px;
+   }
+
+   #intro .inner h1 {
+   font-size: 50px;
+   color: #fff;
+   margin-bottom: 5px;
+   }
+
+   #intro .inner h2 {
+   font-size: 26px;
+   color: #fff;
+   }
+
+   #intro .inner {
+   margin-top: 40px;
+   }
+
+   ul.labeled-icons li {
+       padding-left: 0px;
+       font-size: 16px;
+   }
+
+   ul.labeled-icons li a {
+     border-bottom:3px solid transparent;
+     color: #fff;
+   }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+  html, body {
+    padding: 10px 20px;
+   }
+
+  .nav-lg{
+     display: none;
+   }
+
+  .wrapper-menu {
+     display: flex;
+   }
+
+   .topnav{
+     padding: 25px 0px;
+   }
+
+   /* rollingtext 480px */
+
+   #intro .inner h1 {
+   font-size: 38px;
+   color: #fff;
+   margin-bottom: 5px;
+
+   }
+
+   #intro .inner h2 {
+   font-size: 18px;
+   color: #fff;
+
+   }
+
+   #intro .inner {
+   margin-top: 40px;
+   }
+
+
+}
