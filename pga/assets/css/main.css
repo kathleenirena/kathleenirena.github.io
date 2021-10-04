@@ -110,9 +110,9 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #fff;
-	}
+	/* body {
+		background-color: #E5ECF4;
+	} */
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -165,7 +165,6 @@ input, select, textarea {
 
 	body {
 		background-color: #121212;
-		color: #fff;
 	}
 
 	body, input, select, textarea {
@@ -197,7 +196,6 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
-		color: #f7f7f7;
 		opacity: 70%;
 	}
 
@@ -335,7 +333,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #f7f7f7;
+		color: #000000;
 	}
 
 		a:hover {
@@ -343,11 +341,10 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #f7f7f7;
+		color: #000000;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #f7f7f7;
 	}
 
 	blockquote {
@@ -7228,10 +7225,11 @@ input, select, textarea {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 7rem 3.5rem 5rem 3.5rem ;
+		padding: 0rem 0rem 5rem 0rem ;
 		margin: 0 auto;
 		max-width: 100%;
 		width: 64rem;
+    background-color: #ffffff;
 	}
 
 		.wrapper.style1 > .inner.medium {
@@ -7245,7 +7243,7 @@ input, select, textarea {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 5rem 2.5rem 3rem 2.5rem ;
+			/* padding: 5rem 2.5rem 3rem 2.5rem ; */
 		}
 
 	}
@@ -7349,7 +7347,7 @@ input, select, textarea {
 		}
 
 	#wrapper > .wrapper.style2.invert:not(.color1):not(.color2):not(.color3):not(.color4):not(.color5):not(.color6):not(.color7) {
-		background-color: #222222;
+		background-color: #ffffff;
 	}
 
 	#wrapper > .wrapper.style2.invert > .inner {
@@ -8271,8 +8269,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: #000000;
-			color: #ffffff;
+			background-color: #ffffff;
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
@@ -8558,19 +8555,19 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert .items.style1 > * {
-				border-color: white;
+				border-color: #d3d3d3;
 			}
 
 			#wrapper > .invert .items.style2 {
-				border-color: white;
+				border-color: #d3d3d3;
 			}
 
 				#wrapper > .invert .items.style2 > * {
-					border-color: white;
+					border-color: #d3d3d3;
 				}
 
 			#wrapper > .invert .index > * {
-				border-top-color: white;
+				border-top-color: #d3d3d3;
 			}
 
 		#wrapper > .color1 {
@@ -8628,7 +8625,7 @@ input, select, textarea {
 			/* Style the links inside the navigation bar */
 			.topnav a {
 			  float: right;
-			  color: #f7f7f7;
+			  color: #000;
 			  text-align: center;
 			  padding: 14px 40px;
 			  text-decoration: none;
@@ -8794,7 +8791,7 @@ div{
 }
 
 body {
-  background: #111;
+  background: #ffffff;
 }
 
 .horizontal-scroll-wrapper{
